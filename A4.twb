@@ -1,0 +1,1551 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.24.0118.1101                               -->
+<workbook original-version='18.1' source-build='2023.1.9 (20231.24.0118.1101)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='GuttmacherInstituteAbortionDataByState' inline='true' name='federated.0vtzlgz0o3wd5l1a8lua50i7lu0z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GuttmacherInstituteAbortionDataByState' name='excel-direct.0d4cfku0f5ete414x9zxw1ez2d2a'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/pragyaneupane/Documents/Grad school/spring 24/data viz/Assignment 4/GuttmacherInstituteAbortionDataByState.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0d4cfku0f5ete414x9zxw1ez2d2a' name='Guttmacher' table='[Guttmacher$]' type='table'>
+          <columns gridOrigin='A1:AG52:no:A1:AG52:0' header='yes' outcome='2'>
+            <column datatype='string' name='U.S. State' ordinal='0' />
+            <column datatype='integer' name='% change in abortion rate, 2017-2020' ordinal='1' />
+            <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' ordinal='2' />
+            <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' ordinal='3' />
+            <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' ordinal='4' />
+            <column datatype='integer' name='% of counties without a known abortion provider, 2014' ordinal='5' />
+            <column datatype='integer' name='% of counties without a known clinic, 2020' ordinal='6' />
+            <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' ordinal='7' />
+            <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' ordinal='8' />
+            <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' ordinal='9' />
+            <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' ordinal='10' />
+            <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' ordinal='11' />
+            <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' ordinal='12' />
+            <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' ordinal='13' />
+            <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' ordinal='14' />
+            <column datatype='integer' name='No. of abortion clinics, 2020' ordinal='15' />
+            <column datatype='integer' name='No. of abortion providers, 2017' ordinal='16' />
+            <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' ordinal='17' />
+            <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' ordinal='18' />
+            <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' ordinal='19' />
+            <column datatype='string' name='No. of abortions among women younger than 15, by state of residence, 2017' ordinal='20' />
+            <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' ordinal='21' />
+            <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' ordinal='22' />
+            <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' ordinal='23' />
+            <column datatype='integer' name='No. of abortions, by state of residence, 2020' ordinal='24' />
+            <column datatype='integer' name='No. of federally funded abortions, 2010' ordinal='25' />
+            <column datatype='string' name='No. of state funded abortions, 2010' ordinal='26' />
+            <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' ordinal='27' />
+            <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' ordinal='28' />
+            <column datatype='string' name='Total no. of publicly funded abortions , 2010' ordinal='29' />
+            <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' ordinal='30' />
+            <column datatype='real' name='Hillary Clinton' ordinal='31' />
+            <column datatype='real' name='Donald Trump' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0d4cfku0f5ete414x9zxw1ez2d2a' name='Guttmacher' table='[Guttmacher$]' type='table'>
+          <columns gridOrigin='A1:AG52:no:A1:AG52:0' header='yes' outcome='2'>
+            <column datatype='string' name='U.S. State' ordinal='0' />
+            <column datatype='integer' name='% change in abortion rate, 2017-2020' ordinal='1' />
+            <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' ordinal='2' />
+            <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' ordinal='3' />
+            <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' ordinal='4' />
+            <column datatype='integer' name='% of counties without a known abortion provider, 2014' ordinal='5' />
+            <column datatype='integer' name='% of counties without a known clinic, 2020' ordinal='6' />
+            <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' ordinal='7' />
+            <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' ordinal='8' />
+            <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' ordinal='9' />
+            <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' ordinal='10' />
+            <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' ordinal='11' />
+            <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' ordinal='12' />
+            <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' ordinal='13' />
+            <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' ordinal='14' />
+            <column datatype='integer' name='No. of abortion clinics, 2020' ordinal='15' />
+            <column datatype='integer' name='No. of abortion providers, 2017' ordinal='16' />
+            <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' ordinal='17' />
+            <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' ordinal='18' />
+            <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' ordinal='19' />
+            <column datatype='string' name='No. of abortions among women younger than 15, by state of residence, 2017' ordinal='20' />
+            <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' ordinal='21' />
+            <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' ordinal='22' />
+            <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' ordinal='23' />
+            <column datatype='integer' name='No. of abortions, by state of residence, 2020' ordinal='24' />
+            <column datatype='integer' name='No. of federally funded abortions, 2010' ordinal='25' />
+            <column datatype='string' name='No. of state funded abortions, 2010' ordinal='26' />
+            <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' ordinal='27' />
+            <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' ordinal='28' />
+            <column datatype='string' name='Total no. of publicly funded abortions , 2010' ordinal='29' />
+            <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' ordinal='30' />
+            <column datatype='real' name='Hillary Clinton' ordinal='31' />
+            <column datatype='real' name='Donald Trump' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AG52:no:A1:AG52:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U.S. State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[U.S. State]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>U.S. State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% change in abortion rate, 2017-2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% change in abortion rate, 2017-2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% change in abortion rate, 2017-2020</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% change in the no. of abortion clinics, 2017-2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% change in the no. of abortion clinics, 2017-2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% change in the no. of abortion clinics, 2017-2020</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% change in the no. of abortion providers, 2014-2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% change in the no. of abortion providers, 2014-2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% change in the no. of abortion providers, 2014-2017</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of all U.S. abortions, by state of occurrence, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% of all U.S. abortions, by state of occurrence, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% of all U.S. abortions, by state of occurrence, 2020</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of counties without a known abortion provider, 2014</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of counties without a known abortion provider, 2014]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% of counties without a known abortion provider, 2014</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of counties without a known clinic, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of counties without a known clinic, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% of counties without a known clinic, 2020</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of residents obtaining abortions who traveled out of state for care, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of residents obtaining abortions who traveled out of state for care, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% of residents obtaining abortions who traveled out of state for care, 2020</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of women aged 15-44 living in a county without a clinic, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of women aged 15-44 living in a county without a clinic, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% of women aged 15-44 living in a county without a clinic, 2020</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of women aged 15-44 living in a county without an abortion provider, 2014</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[% of women aged 15-44 living in a county without an abortion provider, 2014]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>% of women aged 15-44 living in a county without an abortion provider, 2014</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in the no. of abortion clinics, 2017-2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Change in the no. of abortion clinics, 2017-2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Change in the no. of abortion clinics, 2017-2020</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in the no. of abortion providers, 2014-2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Change in the no. of abortion providers, 2014-2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Change in the no. of abortion providers, 2014-2017</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortion clinics, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortion clinics, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortion clinics, 2020</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortion providers, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortion providers, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortion providers, 2017</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women aged 15-17, by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of abortions among women aged 15-17, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions among women aged 15-17, by state of residence, 2017</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women aged 15-19, by state of residence, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions among women aged 15-19, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions among women aged 15-19, by state of residence, 2017</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women aged 18-19, by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of abortions among women aged 18-19, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions among women aged 18-19, by state of residence, 2017</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions among women younger than 15, by state of residence, 2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of abortions among women younger than 15, by state of residence, 2017]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions among women younger than 15, by state of residence, 2017</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions per 1,000 women aged 15–44, by state of residence, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[No. of abortions per 1,000 women aged 15–44, by state of residence, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions per 1,000 women aged 15–44, by state of residence, 2020</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions, by state of occurrence, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions, by state of occurrence, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions, by state of occurrence, 2020</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of abortions, by state of residence, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of abortions, by state of residence, 2020]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of abortions, by state of residence, 2020</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of federally funded abortions, 2010</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of federally funded abortions, 2010]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of federally funded abortions, 2010</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of state funded abortions, 2010</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[No. of state funded abortions, 2010]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>No. of state funded abortions, 2010</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reported public expenditures for abortions (in 000s of dollars), federal, 2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Reported public expenditures for abortions (in 000s of dollars), federal, 2015]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Reported public expenditures for abortions (in 000s of dollars), federal, 2015</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reported public expenditures for abortions (in 000s of dollars), state, 2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Reported public expenditures for abortions (in 000s of dollars), state, 2015]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Reported public expenditures for abortions (in 000s of dollars), state, 2015</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total no. of publicly funded abortions , 2010</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total no. of publicly funded abortions , 2010]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Total no. of publicly funded abortions , 2010</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total reported public expenditures for abortions (in 000s of dollars), 2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total reported public expenditures for abortions (in 000s of dollars), 2015]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Total reported public expenditures for abortions (in 000s of dollars), 2015</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hillary Clinton</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hillary Clinton]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Hillary Clinton</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Donald Trump</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Donald Trump]</local-name>
+            <parent-name>[Guttmacher]</parent-name>
+            <remote-alias>Donald Trump</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Guttmacher_1198F638B98040C68505C3500514FD91]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='% Change In Abortion Rate, 2017-2020' datatype='integer' name='[% change in abortion rate, 2017-2020]' role='measure' type='quantitative' />
+      <column caption='% Change In The No. Of Abortion Clinics, 2017-2020' datatype='integer' name='[% change in the no. of abortion clinics, 2017-2020]' role='measure' type='quantitative' />
+      <column caption='% Change In The No. Of Abortion Providers, 2014-2017' datatype='integer' name='[% change in the no. of abortion providers, 2014-2017]' role='measure' type='quantitative' />
+      <column caption='% Of Counties Without A Known Abortion Provider, 2014' datatype='integer' name='[% of counties without a known abortion provider, 2014]' role='measure' type='quantitative' />
+      <column caption='% Of Counties Without A Known Clinic, 2020' datatype='integer' name='[% of counties without a known clinic, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Residents Obtaining Abortions Who Traveled Out Of State For Care, 2020' datatype='integer' name='[% of residents obtaining abortions who traveled out of state for care, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Women Aged 15-44 Living In A County Without A Clinic, 2020' datatype='integer' name='[% of women aged 15-44 living in a county without a clinic, 2020]' role='measure' type='quantitative' />
+      <column caption='% Of Women Aged 15-44 Living In A County Without An Abortion Provider, 2014' datatype='integer' name='[% of women aged 15-44 living in a county without an abortion provider, 2014]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='redandblue' datatype='string' name='[Calculation_734579382610968577]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Hillary Clinton] &gt; [Donald Trump] THEN &apos;Blue&apos;&#10;ELSE &apos;Red&apos; END' />
+      </column>
+      <column caption='Donald Trump%' datatype='real' name='[Donald Trump]' role='measure' type='quantitative' />
+      <column caption='Hillary Clinton%' datatype='real' name='[Hillary Clinton]' role='measure' type='quantitative' />
+      <column datatype='string' name='[No. of abortions among women aged 15-17, by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[No. of abortions among women aged 18-19, by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[No. of abortions among women younger than 15, by state of residence, 2017]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[No. of state funded abortions, 2010]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[Reported public expenditures for abortions (in 000s of dollars), state, 2015]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Guttmacher' datatype='table' name='[__tableau_internal_object_id__].[Guttmacher_1198F638B98040C68505C3500514FD91]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_734579382610968577]' derivation='None' name='[none:Calculation_734579382610968577:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_734579382610968577:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Blue&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Red&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='U.S. State' />
+        <field-sort-custom-order field='% change in abortion rate, 2017-2020' />
+        <field-sort-custom-order field='% change in the no. of abortion clinics, 2017-2020' />
+        <field-sort-custom-order field='% change in the no. of abortion providers, 2014-2017' />
+        <field-sort-custom-order field='% of all U.S. abortions, by state of occurrence, 2020' />
+        <field-sort-custom-order field='% of counties without a known abortion provider, 2014' />
+        <field-sort-custom-order field='% of counties without a known clinic, 2020' />
+        <field-sort-custom-order field='% of residents obtaining abortions who traveled out of state for care, 2020' />
+        <field-sort-custom-order field='% of women aged 15-44 living in a county without a clinic, 2020' />
+        <field-sort-custom-order field='% of women aged 15-44 living in a county without an abortion provider, 2014' />
+        <field-sort-custom-order field='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' />
+        <field-sort-custom-order field='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' />
+        <field-sort-custom-order field='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' />
+        <field-sort-custom-order field='Change in the no. of abortion clinics, 2017-2020' />
+        <field-sort-custom-order field='Change in the no. of abortion providers, 2014-2017' />
+        <field-sort-custom-order field='No. of abortion clinics, 2020' />
+        <field-sort-custom-order field='No. of abortion providers, 2017' />
+        <field-sort-custom-order field='No. of abortions among women aged 15-17, by state of residence, 2017' />
+        <field-sort-custom-order field='No. of abortions among women aged 15-19, by state of residence, 2017' />
+        <field-sort-custom-order field='No. of abortions among women aged 18-19, by state of residence, 2017' />
+        <field-sort-custom-order field='No. of abortions among women younger than 15, by state of residence, 2017' />
+        <field-sort-custom-order field='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' />
+        <field-sort-custom-order field='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' />
+        <field-sort-custom-order field='No. of abortions, by state of occurrence, 2020' />
+        <field-sort-custom-order field='No. of abortions, by state of residence, 2020' />
+        <field-sort-custom-order field='No. of federally funded abortions, 2010' />
+        <field-sort-custom-order field='No. of state funded abortions, 2010' />
+        <field-sort-custom-order field='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' />
+        <field-sort-custom-order field='Reported public expenditures for abortions (in 000s of dollars), state, 2015' />
+        <field-sort-custom-order field='Total no. of publicly funded abortions , 2010' />
+        <field-sort-custom-order field='Total reported public expenditures for abortions (in 000s of dollars), 2015' />
+        <field-sort-custom-order field='Hillary Clinton' />
+        <field-sort-custom-order field='Donald Trump' />
+        <field-sort-custom-order field='Calculation_734579382610968577' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Guttmacher' id='Guttmacher_1198F638B98040C68505C3500514FD91'>
+            <properties context=''>
+              <relation connection='excel-direct.0d4cfku0f5ete414x9zxw1ez2d2a' name='Guttmacher' table='[Guttmacher$]' type='table'>
+                <columns gridOrigin='A1:AG52:no:A1:AG52:0' header='yes' outcome='2'>
+                  <column datatype='string' name='U.S. State' ordinal='0' />
+                  <column datatype='integer' name='% change in abortion rate, 2017-2020' ordinal='1' />
+                  <column datatype='integer' name='% change in the no. of abortion clinics, 2017-2020' ordinal='2' />
+                  <column datatype='integer' name='% change in the no. of abortion providers, 2014-2017' ordinal='3' />
+                  <column datatype='real' name='% of all U.S. abortions, by state of occurrence, 2020' ordinal='4' />
+                  <column datatype='integer' name='% of counties without a known abortion provider, 2014' ordinal='5' />
+                  <column datatype='integer' name='% of counties without a known clinic, 2020' ordinal='6' />
+                  <column datatype='integer' name='% of residents obtaining abortions who traveled out of state for care, 2020' ordinal='7' />
+                  <column datatype='integer' name='% of women aged 15-44 living in a county without a clinic, 2020' ordinal='8' />
+                  <column datatype='integer' name='% of women aged 15-44 living in a county without an abortion provider, 2014' ordinal='9' />
+                  <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 15-17), by state of residence, 2017' ordinal='10' />
+                  <column datatype='real' name='Abortion rate (the no. of abortions per 1,000 women aged 15-19), by state of residence, 2017' ordinal='11' />
+                  <column datatype='string' name='Abortion rate (the no. of abortions per 1,000 women aged 18-19), by state of residence, 2017' ordinal='12' />
+                  <column datatype='integer' name='Change in the no. of abortion clinics, 2017-2020' ordinal='13' />
+                  <column datatype='integer' name='Change in the no. of abortion providers, 2014-2017' ordinal='14' />
+                  <column datatype='integer' name='No. of abortion clinics, 2020' ordinal='15' />
+                  <column datatype='integer' name='No. of abortion providers, 2017' ordinal='16' />
+                  <column datatype='string' name='No. of abortions among women aged 15-17, by state of residence, 2017' ordinal='17' />
+                  <column datatype='integer' name='No. of abortions among women aged 15-19, by state of residence, 2017' ordinal='18' />
+                  <column datatype='string' name='No. of abortions among women aged 18-19, by state of residence, 2017' ordinal='19' />
+                  <column datatype='string' name='No. of abortions among women younger than 15, by state of residence, 2017' ordinal='20' />
+                  <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of occurrence, 2020' ordinal='21' />
+                  <column datatype='real' name='No. of abortions per 1,000 women aged 15–44, by state of residence, 2020' ordinal='22' />
+                  <column datatype='integer' name='No. of abortions, by state of occurrence, 2020' ordinal='23' />
+                  <column datatype='integer' name='No. of abortions, by state of residence, 2020' ordinal='24' />
+                  <column datatype='integer' name='No. of federally funded abortions, 2010' ordinal='25' />
+                  <column datatype='string' name='No. of state funded abortions, 2010' ordinal='26' />
+                  <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), federal, 2015' ordinal='27' />
+                  <column datatype='string' name='Reported public expenditures for abortions (in 000s of dollars), state, 2015' ordinal='28' />
+                  <column datatype='string' name='Total no. of publicly funded abortions , 2010' ordinal='29' />
+                  <column datatype='string' name='Total reported public expenditures for abortions (in 000s of dollars), 2015' ordinal='30' />
+                  <column datatype='real' name='Hillary Clinton' ordinal='31' />
+                  <column datatype='real' name='Donald Trump' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GuttmacherInstituteAbortionDataByState' name='federated.0vtzlgz0o3wd5l1a8lua50i7lu0z' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0vtzlgz0o3wd5l1a8lua50i7lu0z'>
+            <column caption='redandblue' datatype='string' name='[Calculation_734579382610968577]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Hillary Clinton] &gt; [Donald Trump] THEN &apos;Blue&apos;&#10;ELSE &apos;Red&apos; END' />
+            </column>
+            <column caption='Donald Trump%' datatype='real' name='[Donald Trump]' role='measure' type='quantitative' />
+            <column caption='Hillary Clinton%' datatype='real' name='[Hillary Clinton]' role='measure' type='quantitative' />
+            <column datatype='string' name='[U.S. State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_734579382610968577]' derivation='None' name='[none:Calculation_734579382610968577:nk]' pivot='key' type='nominal' />
+            <column-instance column='[U.S. State]' derivation='None' name='[none:U.S. State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0vtzlgz0o3wd5l1a8lua50i7lu0z].[none:Calculation_734579382610968577:nk]' />
+              <lod column='[federated.0vtzlgz0o3wd5l1a8lua50i7lu0z].[none:U.S. State:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0vtzlgz0o3wd5l1a8lua50i7lu0z].[Latitude (generated)]</rows>
+        <cols>[federated.0vtzlgz0o3wd5l1a8lua50i7lu0z].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{EF6CEAEA-E6C2-49E9-9C6A-ED95F7F82CEF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0vtzlgz0o3wd5l1a8lua50i7lu0z].[none:Calculation_734579382610968577:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0vtzlgz0o3wd5l1a8lua50i7lu0z].[none:Calculation_734579382610968577:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACFEA8D1-786B-4FCF-A47A-DD4AEC3B70B5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
